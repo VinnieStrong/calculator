@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 980px;
+}
+    .calculator {
+    
+        width: 300px;
+        height: 500px;
+        padding: 20px;
+        background-color: black;
+        border-width:thick;
+        border-color: black;
+        flex-wrap: wrap;
+    }
+        .screen {
+            background-color: gray;
+            width: 300px;
+            height: 90px;
+            margin-bottom: 10px;
+        }
+        
+        .utilities {
+            height: 60px;
+            display:flex;
+            gap:5px;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 10px;
+        }
+            .clear, .delete {
+                flex: 1;
+                height: 60px;
+            }
+        
+        .numbers-operators {
+            display:flex;
+        }    
+            .numbers {
+        
+                display: flex;
+                flex: 3;
+                flex-wrap: wrap;
+                width: 40px;
+                height: 40px;
+
+            }
+                .numbers button {
+                    width: 70px;
+                    height: 70px;
+                }
+            .operators {
+                display: flex;
+                flex: 1;
+                flex-wrap: wrap;
+            }
+                .operators button {
+                    width: 70px;
+                    height: 70px;
+                }
