@@ -2,26 +2,28 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 980px;
+    width: 100%;
+    height: 100%;
+    background-color: white;
 }
     .calculator {
     
         width: 300px;
         height: 450px;
         padding: 20px;
-        background-color: black;
         border-width:thick;
         border-color: black;
         flex-wrap: wrap;
+        background-color:white;
     }
         .screen {
-            background-color: rgb(101, 97, 97);
-            width: 300px;
-            height: 90px;
-            margin-bottom: 10px;
-            color: rgb(31, 18, 7);
+            width: 285px;
+            height: 50px;
+            margin-bottom: 1px;
+            color: black;
             text-align: end;
-            font-size: 40px;
+            font-size: 30px;
+            background-color: white;
         }
         
         .utilities {
@@ -50,24 +52,46 @@
                 flex-wrap: wrap;
                 width: 40px;
                 height: 40px;
+                gap: 5px;
             }
                 .numbers button {
+                    
                     width: 70px;
                     height: 70px;
+                    border-radius: 50%;
                     font-size: 20px;
                     font-weight:bold;
-                    background-color: rgb(121, 113, 113);
+                    background-color: rgba(65, 61, 61, 0.439);
 
                 }
             .operators {
                 display: flex;
                 flex: 1;
                 flex-wrap: wrap;
+                gap: 5px;
             }
                 .operators button {
                     width: 70px;
                     height: 70px;
-                    background-color: rgb(49, 28, 12);
+                    border-radius: 50%;
+                    background-color: rgb(166, 78, 11);
                     color: white;
                     font-size: 25px;;
                 }
+
+                .rounded-button {
+                    background-color: #dc6f16; 
+                    border: black;
+                    color: rgba(5, 4, 4, 0.863);
+                    font-weight:800;
+                    padding: 12px 18px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 30px;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    
+                  }
+                
+            
