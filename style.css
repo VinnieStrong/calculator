@@ -17,12 +17,15 @@
         background-color:white;
     }
         .screen {
+            margin-top: 50px;
             width: 285px;
             height: 50px;
-            margin-bottom: 1px;
+            margin-bottom: 10px;
             color: black;
             text-align: end;
-            font-size: 30px;
+            font-size: 33px;
+            font-weight: 500;
+            font-family: "Courier New", Courier, monospace;
             background-color: white;
         }
         
@@ -40,6 +43,7 @@
                 flex: 1;
                 height: 60px;
                 font-size: 25px;
+                font-family: "Courier New", Courier, monospace;
             }
         
         .numbers-operators {
@@ -74,21 +78,23 @@
                     width: 70px;
                     height: 70px;
                     border-radius: 50%;
-                    background-color: rgb(166, 78, 11);
+                    background-color: rgb(89, 8, 8);
                     color: white;
-                    font-size: 25px;;
+                    font-size: 25px;
+                    font-family: "Courier New", Courier, monospace;
                 }
 
                 .rounded-button {
-                    background-color: #dc6f16; 
+                    background-color: rgb(89, 8, 8); 
                     border: black;
-                    color: rgba(5, 4, 4, 0.863);
-                    font-weight:800;
+                    color: rgba(253, 247, 247, 0.863);
+                    font-weight: 500;
                     padding: 12px 18px;
                     text-align: center;
                     text-decoration: none;
                     display: inline-block;
-                    font-size: 30px;
+                    font-size: 33px;
+                    font-family: "Courier New", Courier, monospace;
                     border-radius: 15px;
                     cursor: pointer;
                     

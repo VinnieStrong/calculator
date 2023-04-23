@@ -222,6 +222,8 @@ let makeCalculation = (numberArray, secondNumber, operator) => {
     else if (operator === '-') return +secondNumber - +(numberArray.join(''));
     else if (operator === '*') return +(numberArray.join('')) * +secondNumber;
     else if (operator === '/' && +(numberArray.join('')) === 0) {
+         numberArray = [];
+         secondNumber = 0;
          return display.textContent= 'ERROR';
     }
     else if (operator === '/') return +secondNumber / +(numberArray.join(''));
